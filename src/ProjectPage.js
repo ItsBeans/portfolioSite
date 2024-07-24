@@ -1,26 +1,22 @@
 
 import {
     Box,
-    Image,
-    Badge,
     Card,
-    Stack,
     CardBody,
     Heading,
     Text,
     CardFooter,
     Button,
     VStack,
-    HStack,
     SimpleGrid,
     CardHeader,
-    Spacer,
     Grid,
 
     
   } from "@chakra-ui/react";
 
   import { ColorModeSwitcher } from './ColorModeSwitcher';
+  import {Link} from "react-router-dom";   
 
 export const ProjectPage = () => {
 
@@ -35,7 +31,9 @@ export const ProjectPage = () => {
         <ColorModeSwitcher justifySelf="flex-end" />
 <VStack spacing='20px'>
 
-<Spacer></Spacer>
+<a >
+<Button > <Link to="/">home</Link> </Button>
+ </a>
 
 <div style={textStyle}> Here are the projects that I have done or am in the process of completing.</div>
 
