@@ -20,7 +20,7 @@ import {
     return (
         <Flex minWidth='max-content' alignItems='top' gap='2'>
         <Box p='2'>
-          <Heading size='md'>benediktas.dev</Heading>
+          <Heading size='md'>beans.engineering</Heading>
         </Box>
         <Spacer />
         <ButtonGroup gap='2'>
